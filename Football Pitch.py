@@ -12,7 +12,6 @@ def draw_pitch(pitch_color="#FFFFFF", line_color="#000000", area="full"):
     """
     
     if area=='full':
-        
         fig = plt.figure(figsize=(10.4,6.8))
         ax = fig.add_subplot(1,1,1)
         ax.patch.set_facecolor(pitch_color)
@@ -74,7 +73,6 @@ def draw_pitch(pitch_color="#FFFFFF", line_color="#000000", area="full"):
         ax.add_patch(rec2)
         
     if area=="half":
-        
         fig = plt.figure(figsize=(6.8,5.2))
         ax = fig.add_subplot(1,1,1)
         ax.patch.set_facecolor(pitch_color)
